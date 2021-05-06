@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spriter_data scml_version="1.0" generator="BrashMonkey Spriter" generator_version="b5">
+    <folder id="0" name="myprefab">
+        <file id="0" name="myprefab/myprefab.png" width="128" height="128" pivot_x="0" pivot_y="1"/>
+        <file id="1" name="myprefab/myprefab_open.png" width="128" height="128" pivot_x="0" pivot_y="1"/>
+    </folder>
+    <entity id="0" name="myprefab">
+        <animation id="0" name="idle" length="1000">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="myprefab" folder="0" file="0" abs_x="-157.261628" abs_y="221.846899" abs_pivot_x="0" abs_pivot_y="1" abs_angle="0" abs_scale_x="2.476744" abs_scale_y="2.306201" abs_a="1" timeline="0" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="myprefab">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" x="-157.261628" y="221.846899" angle="0" scale_x="2.476744" scale_y="2.306201"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="1" name="open" length="1000">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="myprefab_open" folder="0" file="1" abs_x="-156.26938" abs_y="216.874031" abs_pivot_x="0" abs_pivot_y="1" abs_angle="360" abs_scale_x="2.46124" abs_scale_y="2.251938" abs_a="1" timeline="0" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="myprefab_open">
+                <key id="0" spin="0">
+                    <object folder="0" file="1" x="-156.26938" y="216.874031" scale_x="2.46124" scale_y="2.251938"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+</spriter_data>
