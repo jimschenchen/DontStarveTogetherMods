@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Atlas>
+	<Texture filename="wpicker.tex" />
+	<Elements>
+		<Element name="wpicker_bg_board.tex" u1="0.001" u2="0.832984375" v2="0.999" v1="0.46584375" variant="" />
+		<Element name="wpicker-button-area.tex" u1="0.001" u2="0.47946875" v2="0.46384375" v1="0.38771875" variant="" />
+		<Element name="wpicker-button-area-hover.tex" u1="0.001" u2="0.47946875" v2="0.38571875" v1="0.30959375" variant="" />
+		<Element name="wpicker-button-area-pressed.tex" u1="0.001" u2="0.47946875" v2="0.30759375" v1="0.23146875" variant="" />
+	</Elements>
+</Atlas>
